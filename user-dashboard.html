@@ -330,16 +330,14 @@
 
             .profile-stat {
                 text-align: center;
-                /* Keep stat numbers centered within their block */
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                padding-right: 1.5rem;
+                align-items: center;
+                /* Center items explicitly */
+                /* padding-right removed, using gap instead */
             }
 
-            .profile-stat:last-child {
-                padding-right: 0;
-            }
+            /* last-child rule removed */
 
             .profile-stat-value {
                 width: 100%;

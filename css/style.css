@@ -1,5 +1,6 @@
 /* Luxury PG Accommodation Site - Custom Styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('branding.css');
 
 :root {
     --matte-black: #0B0B0B;
@@ -245,23 +246,15 @@ li {
 }
 
 /* Standardized Brand Text */
-.brand-text {
-    font-size: var(--h4-size);
-    /* was 1.5rem */
-    font-weight: var(--font-weight-bold);
-    color: var(--champagne-gold) !important;
-    letter-spacing: 1px;
-}
+/* .brand-name definition moved to branding.css */
+
+
 
 .navbar-brand {
-    color: var(--champagne-gold) !important;
-    font-size: var(--h4-size);
-    /* was 1.5rem, which is h4 size */
-    font-weight: var(--font-weight-bold);
-    letter-spacing: 1px;
     display: flex;
     align-items: center;
     text-align: left !important;
+    /* Typography now handled by .brand-name */
 }
 
 /* ... existing styles ... */

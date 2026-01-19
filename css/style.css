@@ -324,7 +324,13 @@ li {
 /* Navbar Buttons */
 .navbar-nav .btn {
     margin: 0 0.25rem;
-    /* Only keep margin for spacing between buttons */
+    padding: 0.5rem 0.75rem !important;
+    /* Match nav-link padding */
+    font-size: 1rem;
+    /* Match nav-link font size */
+    border: 2px solid var(--champagne-gold);
+    line-height: 1.5;
+    /* Ensure line-height matches */
 }
 
 .navbar-nav .btn-primary {

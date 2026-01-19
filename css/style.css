@@ -24,17 +24,36 @@
     /* lg */
 
     /* Responsive Fixes for Tablet/Desktop transition */
+    /* Responsive Fixes for Tablet/Desktop transition */
     @media (max-width: 1024px) {
 
         /* Ensure nav fits on 1024px screens */
         .navbar-expand-lg .navbar-nav .nav-link {
-            padding-right: 0.5rem !important;
-            padding-left: 0.5rem !important;
-            font-size: 0.95rem;
+            padding-right: 0.25rem !important;
+            padding-left: 0.25rem !important;
+            font-size: 0.85rem;
         }
 
         .navbar-brand {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
+        }
+
+        .navbar-nav .btn {
+            padding: 0.4rem 0.6rem;
+            font-size: 0.85rem;
+            margin: 0.1rem !important;
+        }
+
+        .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        /* Ensure items stay in a row */
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
         }
     }
 
